@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E11FB0C71B39AC7200AA048F /* BubblesB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0C61B39AC7100AA048F /* BubblesB.swift */; };
-		E11FB0C91B39AE6000AA048F /* DrawingViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0C81B39AE6000AA048F /* DrawingViewB.swift */; };
-		E1D7034B1AE4A642002B03DF /* states.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7034A1AE4A642002B03DF /* states.swift */; };
+		E11FB0CB1B3B2CDC00AA048F /* Bubbles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0CA1B3B2CDC00AA048F /* Bubbles.swift */; };
+		E11FB0CD1B3B2D0C00AA048F /* BubblesB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0CC1B3B2D0C00AA048F /* BubblesB.swift */; };
+		E11FB0CF1B3B2D3000AA048F /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0CE1B3B2D3000AA048F /* DrawingView.swift */; };
+		E11FB0D11B3B2D4F00AA048F /* DrawingViewB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11FB0D01B3B2D4F00AA048F /* DrawingViewB.swift */; };
 		F2B61BAF1AE491A500CBFA8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61BAE1AE491A500CBFA8A /* AppDelegate.swift */; };
 		F2B61BB11AE491A500CBFA8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61BB01AE491A500CBFA8A /* ViewController.swift */; };
 		F2B61BB41AE491A500CBFA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B61BB21AE491A500CBFA8A /* Main.storyboard */; };
 		F2B61BB61AE491A500CBFA8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B61BB51AE491A500CBFA8A /* Images.xcassets */; };
 		F2B61BB91AE491A500CBFA8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B61BB71AE491A500CBFA8A /* LaunchScreen.xib */; };
 		F2B61BC51AE491A600CBFA8A /* Drawing_Test_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61BC41AE491A600CBFA8A /* Drawing_Test_3Tests.swift */; };
-		F2B61BCF1AE4923700CBFA8A /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61BCE1AE4923700CBFA8A /* DrawingView.swift */; };
-		F2B61BD11AE495CD00CBFA8A /* Bubbes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B61BD01AE495CD00CBFA8A /* Bubbes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E11FB0C61B39AC7100AA048F /* BubblesB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesB.swift; sourceTree = "<group>"; };
-		E11FB0C81B39AE6000AA048F /* DrawingViewB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewB.swift; sourceTree = "<group>"; };
-		E1D7034A1AE4A642002B03DF /* states.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = states.swift; sourceTree = "<group>"; };
+		E11FB0CA1B3B2CDC00AA048F /* Bubbles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubbles.swift; sourceTree = "<group>"; };
+		E11FB0CC1B3B2D0C00AA048F /* BubblesB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubblesB.swift; sourceTree = "<group>"; };
+		E11FB0CE1B3B2D3000AA048F /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		E11FB0D01B3B2D4F00AA048F /* DrawingViewB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingViewB.swift; sourceTree = "<group>"; };
 		F2B61BA91AE491A500CBFA8A /* Drawing-Test-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawing-Test-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B61BAD1AE491A500CBFA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B61BAE1AE491A500CBFA8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,6 @@
 		F2B61BBE1AE491A600CBFA8A /* Drawing-Test-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing-Test-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B61BC31AE491A600CBFA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2B61BC41AE491A600CBFA8A /* Drawing_Test_3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing_Test_3Tests.swift; sourceTree = "<group>"; };
-		F2B61BCE1AE4923700CBFA8A /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
-		F2B61BD01AE495CD00CBFA8A /* Bubbes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bubbes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +87,12 @@
 			children = (
 				F2B61BAE1AE491A500CBFA8A /* AppDelegate.swift */,
 				F2B61BB01AE491A500CBFA8A /* ViewController.swift */,
-				F2B61BCE1AE4923700CBFA8A /* DrawingView.swift */,
-				E11FB0C81B39AE6000AA048F /* DrawingViewB.swift */,
-				F2B61BD01AE495CD00CBFA8A /* Bubbes.swift */,
-				E11FB0C61B39AC7100AA048F /* BubblesB.swift */,
+				E11FB0CA1B3B2CDC00AA048F /* Bubbles.swift */,
+				E11FB0CC1B3B2D0C00AA048F /* BubblesB.swift */,
+				E11FB0CE1B3B2D3000AA048F /* DrawingView.swift */,
+				E11FB0D01B3B2D4F00AA048F /* DrawingViewB.swift */,
 				F2B61BB21AE491A500CBFA8A /* Main.storyboard */,
 				F2B61BB51AE491A500CBFA8A /* Images.xcassets */,
-				E1D7034A1AE4A642002B03DF /* states.swift */,
 				F2B61BB71AE491A500CBFA8A /* LaunchScreen.xib */,
 				F2B61BAC1AE491A500CBFA8A /* Supporting Files */,
 			);
@@ -176,7 +173,6 @@
 				TargetAttributes = {
 					F2B61BA81AE491A500CBFA8A = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 66YNRJ6GN4;
 					};
 					F2B61BBD1AE491A600CBFA8A = {
 						CreatedOnToolsVersion = 6.2;
@@ -228,12 +224,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1D7034B1AE4A642002B03DF /* states.swift in Sources */,
-				F2B61BCF1AE4923700CBFA8A /* DrawingView.swift in Sources */,
-				E11FB0C71B39AC7200AA048F /* BubblesB.swift in Sources */,
-				E11FB0C91B39AE6000AA048F /* DrawingViewB.swift in Sources */,
+				E11FB0CB1B3B2CDC00AA048F /* Bubbles.swift in Sources */,
 				F2B61BB11AE491A500CBFA8A /* ViewController.swift in Sources */,
-				F2B61BD11AE495CD00CBFA8A /* Bubbes.swift in Sources */,
+				E11FB0CF1B3B2D3000AA048F /* DrawingView.swift in Sources */,
+				E11FB0CD1B3B2D0C00AA048F /* BubblesB.swift in Sources */,
+				E11FB0D11B3B2D4F00AA048F /* DrawingViewB.swift in Sources */,
 				F2B61BAF1AE491A500CBFA8A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,13 +354,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Drawing-Test-3/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -373,13 +365,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Drawing-Test-3/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
